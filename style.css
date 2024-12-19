@@ -1,0 +1,83 @@
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.box1 {
+    background-color: yellow;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+.box2 {
+    color: aqua;
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+
+    background-image: url(img1.jpg);
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    color: aqua;
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+
+    background-image: url(img1.jpg);
+    background-size: 100px;
+    height: 100px;
+    width: 300px;
+    background-repeat: repeat-x;
+}
+
+.box4 {
+    color: aqua;
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    background-color: cadetblue;
+
+    background-image: url(img1.jpg);
+    background-size: 70px;
+    height: 200px;
+    width: 200px;
+    background-position-y: 145px;
+    background-repeat: no-repeat;
+}
+
+.box5 {
+    color: aqua;
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    background-color: cadetblue;
+
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
+.box6 {
+    color: aqua;
+    font-size: 30px;
+    align-content: center;
+    text-align: center;
+    background-color: cadetblue;
+
+    background-image: url(img1.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
